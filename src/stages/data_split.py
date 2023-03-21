@@ -3,6 +3,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from typing import Text
 import yaml
+import os
+
+import sys; sys.path.append(os.path.join(os.getcwd()))
 
 from src.utils.logs import get_logger
 
