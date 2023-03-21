@@ -4,6 +4,7 @@ import pandas as pd
 from typing import Text
 import yaml
 
+import os; import sys; sys.path.append(os.getcwd())
 from src.train.train import train
 from src.utils.logs import get_logger
 
